@@ -139,7 +139,7 @@ onMounted(()=>{
                                                     </div>
                                                     <div class="mb-3 col-md-6">
                                                         <div class="card-body text-center">
-                                                            <img :src="retrievedData.child_image ? '/storage/'+retrievedData.child_image : '/noimage.png'" alt="lapismagico" class="img-fluid rounded-circle mb-2" width="128" height="128" />
+                                                            <img :src="retrievedData.child_image ? 'http://lapismagico.eskolare.co.mz/storage/'+retrievedData.child_image : '/noimage.png'" alt="lapismagico" class="img-fluid rounded-circle mb-2" width="128" height="128" />
                                                             <!-- <h5 class="card-title mb-0">Christina Mason</h5>
                                                             <div class="text-muted mb-2">Lead Developer</div>
 
